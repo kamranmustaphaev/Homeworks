@@ -1,0 +1,11 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+.container .item{
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    text-align: end;
+}
