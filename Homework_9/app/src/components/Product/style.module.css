@@ -1,0 +1,22 @@
+.product{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #cbacbe, #b892b0, #a079a6,
+    #84639d, #614f96, #5258a3, #3c61af, #006aba, #008ed5, #00b0e3, #00d1e7, #07f1e2);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    position: relative;
+}
+.dlt{
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    padding:  0 5px;
+    border-radius: 50%;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
