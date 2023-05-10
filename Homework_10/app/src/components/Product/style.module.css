@@ -1,0 +1,40 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #34495E;
+    padding: 30px 50px;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+}
+.dlt{
+   display: none;
+   position: absolute;
+   right: -10px;
+   top: -10px; 
+   border-radius: 100%;
+   padding: 5px 10px;
+   cursor: pointer;
+   background-color: red;
+}
+.item:hover .dlt{
+    display: block;
+}
+.quantity{
+    display: none;
+    position: absolute; 
+    right: 100px;
+    bottom: 25px;
+}
+.flex>*{
+    padding: 5px;
+}
+.item:hover .quantity{
+    display: block;
+}
+.flex{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    
+}

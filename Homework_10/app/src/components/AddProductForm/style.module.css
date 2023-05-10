@@ -1,0 +1,25 @@
+.form{
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #34495E;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+.form>input{
+    margin: 0 150px;
+    padding: 10px 30px;
+}
+.btn{
+    margin: 90px 150px 90px 150px;
+    padding: 10px;
+    background-color: #27AE60;
+    border: none;
+    color: white;
+}
+::placeholder{
+    color: #000000;
+}
