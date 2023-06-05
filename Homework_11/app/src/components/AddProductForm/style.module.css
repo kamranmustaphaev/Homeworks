@@ -1,0 +1,24 @@
+.product_form{
+    display: flex;
+    flex-direction: column;
+    background-color: #34495E;
+    align-items: center;
+    padding: 75px;
+    gap: 35px;
+    border-radius: 20px;
+}
+.product_form input{
+    width: 600px;
+    padding: 10px;
+}
+::placeholder{
+    color: black;
+}
+.product_form button {
+    margin-top: 90px;
+    width: 600px;
+    color: white;
+    background-color: #27AE60;
+    border: none;
+    padding: 5px;
+}
