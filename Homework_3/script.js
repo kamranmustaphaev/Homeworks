@@ -91,3 +91,4 @@ console.log(range(10, 2));
     return arr
   }
   console.log(handler([100, 'CTO'], 3));
+  
